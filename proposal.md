@@ -1,15 +1,32 @@
-# 종합설계 제안서 (아직 만드는중입니다.)
-
+<center><h1>종합설계 제안서 (구성중)</h1></center>
+<div style = "text-align:right; font-size: 17px;">한정(컴공, 12114497), 박인규(컴공, 12121484), 이강호(컴공, 12142380)</div>
 ---
 
-### 주제
-    - 최종 목표
-    - UI prototype
+## 주제
+- 최종 목표
+- UI prototype
+    <div style = 'margin:10px;'>
+        <img src = '/img/flow_ex1.png' width='700' alt = 'flow_ex1'/><br/>
+        <span>*플로우 차트입니다. 에제 입니다*</span>
+    </div>
+    <div style = 'margin:10px;'>
+        <img src = '/img/1.png' width='400' alt = 'prototype_ex1'/><br/>
+        <span>*메인 화면입니다.*</span>
+    </div>
+    <div style = 'margin:10px;'>
+        <img src = '/img/1.png' width='400' alt = 'prototype_ex2'/><br/>
+        <span>*프로토타입2*</span>
+    </div>
+    <div style = 'margin:10px;'>
+        <img src = '/img/1.png' width='400' alt = 'prototype_ex3'/><br/>
+        <span>*프로토타입3*</span>
+    </div>
 
-### 배경
-- 동기
-    > 나의 동기 백승환
-
+## 배경
+이 부분에는 동기가 들어간다 왜 이런 것을 생각했고 이런 것을 만들게 되었는지<br/>
+한 3줄 정도로 아무말 대잔치를 한다. 이 부분에는 동기가 들어간다 왜 이런 것을 생각했고 이런 것을 만들게 되었는지<br/>
+이 부분에는 동기가 들어간다 왜 이런 것을 생각했고 이런 것을 만들게 되었는지<br/>
+한 3줄 정도로 아무말 대잔치를 한다. <br/>
 - 이 프로젝트 완료로부터 기대되는 효과  
     * 어떤거 1
     * 어떤거 2
@@ -19,7 +36,7 @@
     * survey 2
     * survey 3
 - 유사 프로젝트 검색 및 해당 프로젝트 결과물들의 문제점
-    * 문제점 1
+    * 문제점 1 .,ㅡㅜㅜㅊㅍㅍㅊ츟픃ㅎㅎㅎ호호ㅛㅛㄷ
     * 문제점 2
     * 문제점 3
 - 기존 프로젝트와 제안 내용과의 차이 및 기존 문제 해결 방안
@@ -29,7 +46,7 @@
     * 아 그냥어려운데 1
     * 아 그냥어려운데 2
 
-### 개발 내용
+## 개발 내용
 - 개발 플랫폼
     * Web application
         * 왜 웹을 쓰는가 1
@@ -43,7 +60,7 @@
 - 상세 구조 (system components and relation between components)
    * data flow diagrams, UML diagrams, flowcharts 등 도표를 활용할 것
 
-### 개발 방법
+## 개발 방법
 - 가용 open source libraries or APIs and testing results (for example, a “hello world” program)
 - 가용 data sources
 - 윤리, 정책 등 비기술적 고려사항도 기술
