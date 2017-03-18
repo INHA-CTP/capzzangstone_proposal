@@ -69,7 +69,16 @@
 
 ## 개발 방법
 1. 사용하게 될 open sources
-  -
+  - React
+    - facebook에서 만든 유저인터페이스 라이브러리.
+    - 페이스북, 인스타그램, 넥플릭스에서 널리 쓰이고 있다.
+    - UI를 component화 해서 재사용이 쉽게 만드는게 특징
+    - VIRTUAL DOM이라는 개념을 사용해서 상태의 변함에 따라서 선택적으로 UI를 렌더링한다.
+  - Babel
+    - ES6와 ES7 모든 웹 브라우저에서 호환 가능하도록 변환해주는 transpiler.
+    - 실제로 가장 많이 사용되는 javascript transpiler이다.
+  - Redux
+    - 
 - 가용 data sources
 - 윤리, 정책 등 비기술적 고려사항도 기술
 
