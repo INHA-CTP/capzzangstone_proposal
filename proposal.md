@@ -86,11 +86,29 @@
     - VIRTUAL DOM이라는 개념을 사용해서 상태의 변함에 따라서 선택적으로 UI를 렌더링한다.
   - Babel
     - ES6와 ES7 모든 웹 브라우저에서 호환 가능하도록 변환해주는 transpiler.
-    - 실제로 가장 많이 사용되는 javascript transpiler이다.
   - Redux
-    - 
-- 가용 data sources
-- 윤리, 정책 등 비기술적 고려사항도 기술
+    - React로 이루어진 앱에서 효율적인 데이터 흐름을 위해 사용하는 라이브러리
+  - Node.js
+    - Javascript 엔진으로 만들어진 언어로써, Non-blocking I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능이 특징인 언어
+  - express
+    - Node.js에서 가장 많이 쓰이는 웹 프레임워크
+  - passport
+    - Node.js에서 가장 많이 쓰이는 인증을 위한 미들웨어
+  - SASS
+    - CSS를 확장하는 pre-processor
+  - webpack
+    - 자바스크립트 모듈화를 지원해주는 모듈화 엔진
+  - mysql
+    - 가장 널리 쓰이고 있는 오픈소스 RDBMS
+  - redis
+    - 메모리 기반의 key/value NoSQL DBMS
+- 가용 가능한 data sources
+  - sugang.inha.ac.kr에서 수강가능한 시간표
+  - 에전 총학생회에서 조사한 주관식 교양 백서
+  - 인하대학교 정보통신처에서 학생들의 수강신청 기록들
+  - 예전에 잠깐 운영되었던 인하대학교 시간표라는 사이트에서 데이터 요청
+
+- 윤리, 정책 등 비기술적 고려사항도 기술(?)
 
 
 
