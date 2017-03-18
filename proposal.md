@@ -68,7 +68,8 @@
 </div>
 
 ## 개발 방법
-- 가용 open source libraries or APIs and testing results (for example, a “hello world” program)
+1. 사용하게 될 open sources
+  -
 - 가용 data sources
 - 윤리, 정책 등 비기술적 고려사항도 기술
 
