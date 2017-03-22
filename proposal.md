@@ -61,20 +61,15 @@
         * 서울대 자대에만 사용되는 시스템
         * 추천 시스템 부재
     * [주관식 강의백서](http://www.inha.ac.kr/user/boardList.do?command=view&page=1&boardId=235757&boardSeq=5371322&id=plaza_010100000000) : 인하대학교 주관식 강의백서
-        * 불편한 UI / U.
+        * 불편한 UI / UX.
         * 검색이 힘들고, 강의에 대한 자료들이 한눈에 들어오지 않는다.
         * 모바일에서 최적화가 이루어지지 않았다
-    * [인하대 수강신청](sugang.inha.ac.kr) : 인하대학교 수강신청 사이트
-        * 불편한 UI / UX
-        * 모바일 최적화가 이루어지지 않았다
 - 기존 프로젝트와 제안 내용과의 차이 및 기존 문제 해결 방안
     * 추천 시스템
     * 사용이 간편한 UI / UX
-    * 그리고 등등등
 - 기술적으로 어려움
     * 추천해주는 과목(item)이 적절하게 추천이 되었는지 추천을 받는 user의 만족도를 수량적으로 판단하기가 힘들다
         * 이 부분에 대해서는 자체 추천 알고리즘 소개 논문에서 성과 부분을 보면 도움이 될 것이라 예상
-        * 아 그냥어려운데 2
     * 특정 OS 기반이 아니라 브라우저 기반이기 때문에 디바이스 최적화 문제가 어려움
     * 모든 학생이 사용해야 하기 때문에 모든 브라우저에 대응해서 만들어야 한다
     * 특정 기간에 급격히 늘어나는 요청에 대응할 수 있어야 한다
@@ -90,13 +85,12 @@
     * 기능적 요구사항 (functional requirements)
         * 과목 recommendation systems
         * 시간표 제작
-            * 모바일 웹으로도 검색이 쉽게 반응형 웹으로 제작되어야함
-            * 검색부분이 기존
+        * 모바일 웹으로도 검색이 쉽게 반응형 웹으로 제작되어야함
+        * 검색부분이 기존보다 간편하고 쉽게 되어야 함
     * 비기능적 요구사항 (non-functional requirements)
-        * performance (response time, throughput per unit time)
-        * usability, reliability, security, safety, restriction, etc.
-- 상세 구조 (system components and relation between components)
-    * data flow diagrams, UML diagrams, flowcharts 등 도표를 활용할 것
+        * 현재 이 과목에 관심이 있는 인원이 몇 명인지 나타내 줌
+        * 미리 경쟁률을 알게 되면 다른 강의로 분산 가능성이 높아짐
+        * 추천 시스템 사용을 유도 하게 될 수도 있음
 <div style = 'margin:10px;'>
    <img src = '/img/flow_ex1.png' width='700' alt = 'flow_ex1'/><br/>
    <span>*플로우 차트입니다. 에제 입니다*</span>
@@ -145,10 +139,10 @@
 ### 계획 및 일정 (Plan and schedule)
 - 프로젝트 규모 산정
     - 예상 소요기간
-        - 기획 및 디자인 :
-        - 개발기간 :
-        - 평가기간 : 이걸 이용해서 간트차트 기간을 만들면 될 듯
-    - 프로젝트 규모 : 이건 뭐 우리맘대로적는거에요?
+        - 기획 및 디자인 : 2017.03.02 ~ 2017.03.27
+        - 개발 기간 : 2017.03.27 ~ 2017.05.31
+        - 성과 측정 기간 : 2017.06.01 ~
+    - 프로젝트 규모 :
 - 요소 작업들에 대한 roadmap 구성
   구성 작업(task) 식별 및 PERT chart를 이용한 관계 명시: 독립적 작업 규명, 작업간 순서 결정
   마일스톤(중간 점검 단계에서 완성되어야 하는 기대 결과물) 명시
@@ -162,9 +156,9 @@
   <img src = '/img/gant_ex1.png' width='700' alt = 'gant_ex1'/><br/>
   <span>*간트차트 예제입니다.*</span>
 </div>
-- 최종 결과물 평가를 위한 평가 기준
-    . 정량적 목표: 달성하고자 하는 목표를 수치로 표시할 것 (예) 검색 엔진 개발이라면, xx GB ram, xx TB disk, xx CPU 및 xx OS version xx가 탑재된 컴퓨터에 yy개 이상의 crawed page data를 저장한 상태로, 초당 xx 개 이상의 query를 처리
-    . 정성적 목표: 수치화할 수 없는 목표를 기술할 것
+
+- 평가기준
+    - 생각해보자..
 
 #### 참고문헌
 * web part
