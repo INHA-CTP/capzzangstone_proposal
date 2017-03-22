@@ -35,7 +35,9 @@
 
 현재 상황은 결국 파레토 법칙처럼 베스트셀러들이 점거하고 있는 상황임<br/>
 롱테일 현상에 기반한 강의 선택이 이루어지면 => 강의의 선택 폭이 넓어지고, 쏠림 현상도 개선(수강신청 때마다 전쟁이야!)<br/>
-> 인규야 위에 내용 말좀 잘 털어줄 수 있음? => 지금 입 털기 장전 
+
+> 인규야 위에 내용 말좀 잘 털어줄 수 있음? => 지금 입 털기 장전
+
 - 이 프로젝트 완료로부터 기대되는 효과  
     * 간편한 UI / UX 제공으로 쉬운 시간표 제작
     * 강의 몰림현상을 줄임
@@ -85,16 +87,16 @@
     3. 상대적으로 많은 라이브러리들과 자료들이 있다.<br/>
     4. 서버 언어로 `Node.js`를 사용하기 때문에 클라이언트와 번갈아 가면서 개발하기 수월함.<br/>
 - 상세 요구사항
-   * 기능적 요구사항 (functional requirements)
+    * 기능적 요구사항 (functional requirements)
         * 과목 recommendation systems
         * 시간표 제작
             * 모바일 웹으로도 검색이 쉽게 반응형 웹으로 제작되어야함
             * 검색부분이 기존
-   * 비기능적 요구사항 (non-functional requirements)
-     * performance (response time, throughput per unit time)
-     * usability, reliability, security, safety, restriction, etc.
+    * 비기능적 요구사항 (non-functional requirements)
+        * performance (response time, throughput per unit time)
+        * usability, reliability, security, safety, restriction, etc.
 - 상세 구조 (system components and relation between components)
-   * data flow diagrams, UML diagrams, flowcharts 등 도표를 활용할 것
+    * data flow diagrams, UML diagrams, flowcharts 등 도표를 활용할 것
 <div style = 'margin:10px;'>
    <img src = '/img/flow_ex1.png' width='700' alt = 'flow_ex1'/><br/>
    <span>*플로우 차트입니다. 에제 입니다*</span>
@@ -103,33 +105,33 @@
 ## 개발 방법
 1. 사용하게 될 open sources
   - React
-    - facebook에서 만든 유저인터페이스 라이브러리.
-    - 페이스북, 인스타그램, 넥플릭스에서 널리 쓰이고 있다.
-    - UI를 component화 해서 재사용이 쉽게 만드는게 특징
-    - VIRTUAL DOM이라는 개념을 사용해서 상태의 변함에 따라서 선택적으로 UI를 렌더링한다.
+      - facebook에서 만든 유저인터페이스 라이브러리.
+      - 페이스북, 인스타그램, 넥플릭스에서 널리 쓰이고 있다.
+      - UI를 component화 해서 재사용이 쉽게 만드는게 특징
+      - VIRTUAL DOM이라는 개념을 사용해서 상태의 변함에 따라서 선택적으로 UI를 렌더링한다.
   - Babel
-    - ES6와 ES7 모든 웹 브라우저에서 호환 가능하도록 변환해주는 transpiler.
+      - ES6와 ES7 모든 웹 브라우저에서 호환 가능하도록 변환해주는 transcompiler.
   - Redux
-    - React로 이루어진 앱에서 효율적인 데이터 흐름을 위해 사용하는 라이브러리
+      - React로 이루어진 앱에서 효율적인 데이터 흐름을 위해 사용하는 라이브러리
   - Node.js
-    - Javascript 엔진으로 만들어진 언어로써, Non-blocking I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능이 특징인 언어
+      - Javascript 엔진으로 만들어진 언어로써, Non-blocking I/O와 단일 스레드 이벤트 루프를 통한 높은 처리 성능이 특징인 언어
   - express
-    - Node.js에서 가장 많이 쓰이는 웹 프레임워크
+      - Node.js에서 가장 많이 쓰이는 웹 프레임워크
   - passport
-    - Node.js에서 가장 많이 쓰이는 인증을 위한 미들웨어
+      - Node.js에서 가장 많이 쓰이는 유저 인증을 위한 미들웨어
   - SASS
-    - CSS를 확장하는 pre-processor
+      - CSS를 확장하는 pre-processor
   - webpack
-    - 자바스크립트 모듈화를 지원해주는 모듈화 엔진
+      - 자바스크립트 모듈화를 지원해주는 모듈화 엔진
   - mysql
-    - 가장 널리 쓰이고 있는 오픈소스 RDBMS
+      - 가장 널리 쓰이고 있는 오픈소스 RDBMS
   - redis
-    - 메모리 기반의 key/value NoSQL DBMS
+      - 메모리 기반의 key/value NoSQL DBMS
 - 가용 가능한 data sources
-  - sugang.inha.ac.kr에서 수강가능한 시간표
-  - 에전 총학생회에서 조사한 주관식 교양 백서
-  - 인하대학교 정보통신처에서 학생들의 수강신청 기록들
-  - 예전에 잠깐 운영되었던 인하대학교 시간표라는 사이트에서 데이터 요청
+    - sugang.inha.ac.kr에서 수강가능한 시간표
+    - 에전 총학생회에서 조사한 주관식 교양 백서
+    - 인하대학교 정보통신처에서 학생들의 수강신청 기록들
+    - 예전에 잠깐 운영되었던 인하대학교 시간표라는 사이트에서 데이터 요청
 
 - 윤리, 정책 등 비기술적 고려사항
     - 평가가 이뤄지는 시기(6월)가 수강신청이 실제로 이뤄지지 않는 시기
@@ -161,9 +163,8 @@
   <span>*간트차트 예제입니다.*</span>
 </div>
 - 최종 결과물 평가를 위한 평가 기준
-  . 정량적 목표: 달성하고자 하는 목표를 수치로 표시할 것
-    (예) 검색 엔진 개발이라면, xx GB ram, xx TB disk, xx CPU 및 xx OS version xx가 탑재된 컴퓨터에 yy개 이상의 crawed page data를 저장한 상태로, 초당 xx 개 이상의 query를 처리
-  . 정성적 목표: 수치화할 수 없는 목표를 기술할 것
+    . 정량적 목표: 달성하고자 하는 목표를 수치로 표시할 것 (예) 검색 엔진 개발이라면, xx GB ram, xx TB disk, xx CPU 및 xx OS version xx가 탑재된 컴퓨터에 yy개 이상의 crawed page data를 저장한 상태로, 초당 xx 개 이상의 query를 처리
+    . 정성적 목표: 수치화할 수 없는 목표를 기술할 것
 
 #### 참고문헌
 * web part
