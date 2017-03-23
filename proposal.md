@@ -12,16 +12,16 @@
 
 - UI prototype
     <div style = 'margin:10px;'>
-        <img src = '/img/1.png' width='400' alt = 'prototype_ex1'/><br/>
+        <img src = '/img/mockmain.png' width='600' alt = 'prototype_ex1'/><br/>
         <span>*메인 화면입니다.*</span>
     </div>
     <div style = 'margin:10px;'>
-        <img src = '/img/1.png' width='400' alt = 'prototype_ex2'/><br/>
-        <span>*프로토타입2*</span>
+        <img src = '/img/mockinfo.png' width='600' alt = 'prototype_ex2'/><br/>
+        <span>*개인정보 화면입니다*</span>
     </div>
     <div style = 'margin:10px;'>
-        <img src = '/img/1.png' width='400' alt = 'prototype_ex3'/><br/>
-        <span>*프로토타입3*</span>
+        <img src = '/img/mockrecommend.png' width='600' alt = 'prototype_ex3'/><br/>
+        <span>*추천 화면입니다*</span>
     </div>
 
 ## 배경
