@@ -142,7 +142,7 @@
    . 2주 별, 각 팀원별 평가 기준 명시
    . 마일스톤(즉, 주요 중간 목표들) 명시
 <div style = 'margin:10px;'>
-  <img src = '/img/gantt_chart.png' width='700' alt = 'gant_ex1'/><br/>
+  <img src = '/img/gantt_chart.PNG' width='700' alt = 'gant_ex1'/><br/>
   <span>*간트차트 예제입니다.*</span>
 </div>
 
