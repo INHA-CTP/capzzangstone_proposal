@@ -140,15 +140,15 @@
        . 2주 별, 각 팀원별 평가 기준 명시
        . 마일스톤(즉, 주요 중간 목표들) 명시
 <div style = 'margin:10px;'>
-  <img src = '/img/gantt_chart.PNG' width='700' alt = 'gant_ex1'/><br/>
-  <span>*간트차트 예제입니다.*</span>
+  <img src = '/img/gantt_chart.PNG' width='900' alt = 'gant_ex1'/><br/>
+  <span>*간트차트 입니다.*</span>
 </div>
 
 - 평가기준
     - 강의 추천의 정확도
-    - 사용자 접근성
-    - 동작 효율
-    - etc..
+        - 평가 방법 :
+    - 사용자의 웹 및 모바일 환경에서 접근 용이성
+    - 적절한 UI / UX 디자인이 쓰였는가
 
 #### 참고문헌
 * web part
@@ -158,6 +158,6 @@
     * 등등등
 * recommendation part
     * Stanford Jeffrey D. Ullman *mining massive datasets* 강의 수업자료(http://infolab.stanford.edu/~ullman/mmds/ch9.pdf)
-    * 이런 사이트 1
-    * 이런 논문 2
-    * 등등등
+    * 카이스트 제 8회 ROSAEC 워크샵자료 *Recommendation System* "협업 필터링을 중심으로"(http://rosaec.snu.ac.kr/meet/file/20120728b.pdf)
+    * 미네소타 대학 Technical Report, "Application of Dimensionality Reduction in Recommender System -- A Case Study"
+    * 왓챠 추천시스템 대학교 발표 PPT(https://www.slideshare.net/itsociety/4-151106-58384179)
