@@ -4,7 +4,7 @@
 
 ## 주제
 
-<h5>최종목표 : **한마디로 정리할 수 있는 우리의 목표**</h5>
+<h5>최종목표 : **여러 사용자 환경을 만족시키는 추천 기반 시간표 작성 웹을 완성도 있게 제작한다.**</h5>
 * 시간표를 웹, 모바일 웹 모두에서 쉽게 작성할 수 있게 도와준다.<br/>
 * 현재의 성향을 파악하여 과목을 추천 받을 수 있게된다.<br/>
 * 강좌의 선택 폭이 다양해질 수 있다.<br/>
@@ -115,10 +115,9 @@
     - 에전 총학생회에서 조사한 주관식 교양 백서
     - 인하대학교 정보통신처에서 학생들의 수강신청 기록들
     - '인하대학교 시간표'에서 데이터 요청
-
-- 윤리, 정책 등 비기술적 고려사항 **=> 다듬기 필요**
+- 윤리, 정책 등 비기술적 고려사항
     - 평가가 이뤄지는 시기(6월)가 수강신청이 실제로 이뤄지지 않는 시기
-        * 이전 학기까지 들었던 과목 입력 후 현재 듣는 과목의 만족도를 비교 해보는 방식으로 평가 가능
+        - 학생들의 지속적인 유입을 어떻게 유도할 지
     - 정보 수집 범위
         - 회원 가입시 정보 수집에 대한 동의
         - 개인정보 없이 직접적인 강의 평가를 받아 정보 누적
@@ -131,7 +130,7 @@
         - 기획 및 디자인 : 2017.03.02 ~ 2017.03.27
         - 개발 기간 : 2017.03.27 ~ 2017.05.31
         - 성과 측정 기간 : 2017.06.01 ~
-    - 프로젝트 규모 :
+    - 프로젝트 규모 : 두개의 서버(추천서버, 웹서버)와 8개(예정)의 뷰
 - 요소 작업들에 대한 roadmap 구성
     * Gantt chart를 이용한 각 구성 작업 당 소요 기간
        . 계획은 격주별로 할당되어야 함 (발표 대상 주를 고려하여 작성)
@@ -145,7 +144,6 @@
 
 - 평가기준
     - 강의 추천의 정확도
-        - 평가 방법 :
     - 사용자의 웹 및 모바일 환경에서 접근 용이성
     - 적절한 UI / UX 디자인이 쓰였는가
 
@@ -160,3 +158,5 @@
     * 카이스트 제 8회 ROSAEC 워크샵자료 *Recommendation System* "협업 필터링을 중심으로"(http://rosaec.snu.ac.kr/meet/file/20120728b.pdf)
     * 미네소타 대학 Technical Report, "Application of Dimensionality Reduction in Recommender System -- A Case Study"
     * 왓챠 추천시스템 대학교 발표 PPT(https://www.slideshare.net/itsociety/4-151106-58384179)
+    * mahout을 이용한 recommendation system Overview(https://mahout.apache.org/users/recommender/recommender-documentation.html)
+    * recommendation system 구축 엔진 선택에 관한 Quora text(https://www.quora.com/How-can-I-start-building-a-recommendation-engine)
