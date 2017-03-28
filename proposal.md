@@ -4,24 +4,27 @@
 
 ## 주제
 
-<h5>최종목표 : **여러 사용자 환경을 만족시키는 추천 기반 시간표 작성 웹을 완성도 있게 제작한다.**</h5>
-  * 시간표를 웹, 모바일 웹 모두에서 쉽게 작성할 수 있게 도와준다.
-  * 현재의 성향을 파악하여 과목을 추천 받을 수 있게 된다.
-  * 강좌의 선택 폭이 다양해질 수 있다.
-  * 몇명이 이 과목에 관심이 있는지 알 수 있다.
+<h5>최종목표 : **여러 브라우저 환경에서 동작하는 추천 기반 시간표 작성 웹의 제작**</h5>
+<ul>
+  <li>각종 디바이스에서 손쉽게 사용할 수 있는 환경을 제공한다.</li>
+  <li>사용자의 성향을 파악하여 과목을 추천한다.</li>
+  <li>강좌의 선택 폭이 다양해질 수 있다.</li>
+  <li>몇 명이 이 과목에 관심이 있는지 알 수 있다.</li>
+</ul>
+<p>리스트 부분 삭제해도 괜찮지 않을까요?</p>
 
 - UI prototype
     <div style = 'margin:10px;'>
         <img src = '/img/mockmain.png' width='600' alt = 'prototype_ex1'/><br/>
-        <span>*메인 화면입니다.*</span>
+        <span>*메인*</span>
     </div>
     <div style = 'margin:10px;'>
         <img src = '/img/mockinfo.png' width='600' alt = 'prototype_ex2'/><br/>
-        <span>*개인정보 화면입니다*</span>
+        <span>*개인정보*</span>
     </div>
     <div style = 'margin:10px;'>
         <img src = '/img/mockrecommend.png' width='600' alt = 'prototype_ex3'/><br/>
-        <span>*추천 화면입니다*</span>
+        <span>*추천*</span>
     </div>
 
 ## 배경
@@ -37,7 +40,7 @@
     * Stanford Jeffrey D. Ullman *mining massive datasets* 강의 수업자료
         * 기본적인 Recommend System 개념 학습
         * 신뢰도 계산법 및 적절한 선택법 학습
-    * 추가적인 survey 필요 **여기..???**
+    * 추가적인 survey 필요 **!!!!!!!여기 삭제해도 되나요?!!!!!!!**
         * 그 어떤 무언가
 - 유사 프로젝트 검색 및 해당 프로젝트 결과물들의 문제점
     * [인하대학교 수강신청, http://sugang.inha.ac.kr/sugang/](http://sugang.inha.ac.kr/sugang/) : 학교 수강신청 사이트
@@ -58,7 +61,7 @@
     * 추천 시스템
     * 사용이 간편한 UI / UX
 - 기술적인 어려움
-    * 과목(item)이 적절하게 추천이 되었는가에 대한 정량적 만족도 판단의 어려움
+    * 과목(item)이 적절하게 추천 되었는가에 대한 만족도의 정량적 판단의 어려움
     * 특정 OS 기반이 아닌 브라우저 기반으로 어려운 디바이스 최적화
     * 다양한 브러우저 호환 필요
     * 특정 기간에 편중된 요청들에 대한 대응 필요
@@ -82,7 +85,7 @@
 
 <div style = 'margin:10px;'>
    <img src = '/img/flowchart.png' width='1200' alt = 'flow_ex1'/><br/>
-   <span>*플로우 차트입니다.*</span>
+   <span>*플로우 차트*</span>
 </div>
 
 ## 개발 방법
@@ -139,7 +142,7 @@
        . 마일스톤(즉, 주요 중간 목표들) 명시
 <div style = 'margin:10px;'>
   <img src = '/img/gantt_chart.PNG' width='900' alt = 'gant_ex1'/><br/>
-  <span>*간트차트 입니다.*</span>
+  <span>*간트차트*</span>
 </div>
 
 - 평가기준
