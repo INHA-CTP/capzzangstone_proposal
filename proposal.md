@@ -11,20 +11,20 @@
   <li>강좌의 선택 폭이 다양해질 수 있다.</li>
   <li>몇 명이 이 과목에 관심이 있는지 알 수 있다.</li>
 </ul>
-<p>리스트 부분 삭제해도 괜찮지 않을까요?</p>
+<p>**리스트 부분 삭제해도 괜찮지 않을까요?**</p>
 
 - UI prototype
     <div style = 'margin:10px;'>
         <img src = '/img/mockmain.png' width='600' alt = 'prototype_ex1'/><br/>
-        <span>*메인*</span>
+        <span>*메인 예시*</span>
     </div>
     <div style = 'margin:10px;'>
         <img src = '/img/mockinfo.png' width='600' alt = 'prototype_ex2'/><br/>
-        <span>*개인정보*</span>
+        <span>*개인정보 예시*</span>
     </div>
     <div style = 'margin:10px;'>
         <img src = '/img/mockrecommend.png' width='600' alt = 'prototype_ex3'/><br/>
-        <span>*추천*</span>
+        <span>*추천 예시*</span>
     </div>
 
 ## 배경
