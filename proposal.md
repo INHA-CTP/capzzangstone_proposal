@@ -1,6 +1,5 @@
-<center><h1>종합설계 제안서 (구성중)</h1></center>
-<div style = "text-align:right; font-size: 17px;">한정(컴공, 12114497), 박인규(컴공, 12121484), 이강호(컴공, 12142380)</div>
----
+<center><h1>**종합설계 제안서**</h1></center>
+<div style = "text-align:right; font-size: 17px;">캡짱스톤 조 : 한정(컴공, 12114497), 박인규(컴공, 12121484), 이강호(컴공, 12142380)</div>
 
 ## 주제
 
@@ -12,15 +11,15 @@
 
 - UI prototype
     <div style = 'margin:10px;'>
-        <img src = '/img/mockmain.png' width='600' alt = 'prototype_ex1'/><br/>
+        <img src = '/img/mockmain.png' width='500' alt = 'prototype_ex1'/><br/>
         <span>*메인 화면입니다.*</span>
     </div>
     <div style = 'margin:10px;'>
-        <img src = '/img/mockinfo.png' width='600' alt = 'prototype_ex2'/><br/>
+        <img src = '/img/mockinfo.png' width='500' alt = 'prototype_ex2'/><br/>
         <span>*개인정보 화면입니다*</span>
     </div>
     <div style = 'margin:10px;'>
-        <img src = '/img/mockrecommend.png' width='600' alt = 'prototype_ex3'/><br/>
+        <img src = '/img/mockrecommend.png' width='500' alt = 'prototype_ex3'/><br/>
         <span>*추천 화면입니다*</span>
     </div>
 
@@ -84,14 +83,13 @@
     * 비기능적 요구사항 (non-functional requirements)
         * 해당 과목에 관심이 있는 인원 명시를 통한 경쟁 가능성 제시로 수강 인원 분산 유도
         * 추천 시스템 사용 유도
-
-<div style = 'margin:10px;'>
-   <img src = '/img/flowchart.png' width='1200' alt = 'flow_ex1'/><br/>
-   <span>*플로우 차트입니다.*</span>
-</div>
+    <div style = 'margin:10px;'>
+       <img src = '/img/flowchart.png' width='1200' alt = 'flow_ex1'/><br/>
+       <span>*추천 화면입니다*</span>
+    </div>
 
 ## 개발 방법
-1. 사용하게 될 open sources
+- 사용하게 될 open sources
   - React
       - facebook에서 만든 유저인터페이스 라이브러리
       - 페이스북, 인스타그램, 넥플릭스에서 널리 쓰임
@@ -138,10 +136,11 @@
     - 프로젝트 규모 : 두개의 서버(추천서버, 웹서버)와 8개(예정)의 뷰
 - 요소 작업들에 대한 roadmap 구성
     * Gantt chart를 이용한 각 구성 작업 당 소요 기간
-<div style = 'margin:10px;'>
-  <img src = '/img/gantt_chart.PNG' width='900' alt = 'gant_ex1'/><br/>
-  <span>*간트차트 입니다.*</span>
-</div>
+    <div style = 'margin:10px;'>
+      <img src = '/img/gantt_chart.PNG' width='900' alt = 'gant_ex1'/><br/>
+      <span>*간트차트 입니다.*</span>
+    </div>
+
 - 평가기준
     - 강의 추천의 정확도
     - 추천 시스템 연산의 속도를 어떻게 빠르게 할 것인지
