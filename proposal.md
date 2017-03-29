@@ -28,7 +28,7 @@
 과거 20%의 주 품목들이 전체 매출의 80%를 차지하였다. 그러나 점차 개인 성향이 중시되며, 인터넷의 성장으로 정보의 접근이 쉬워지자 나머지 80%의 비주류 품목의 전체 매출이 무시 못할 규모가 되었다. 최근 IT 기업들은 개인의 성향에 중시하여 추천 알고리즘을 통해 시스템을 구축하기 시작했고, 그 결과 괄목할만한 결과를 얻어내었다. 이에 평소 알고리즘에 관심이 많았던 캡짱스톤 조는 강의 추천 시스템을 구현해 추천 알고리즘을 실제 적용을 해보고자 한다.
 
 - 이 프로젝트 완료로부터 기대되는 효과  
-    * 간편한 UI / UX 제공으로 쉬운 시간표 제작
+    * 간편한 UI/UX 제공으로 쉬운 시간표 제작
     * 강의 몰림현상을 줄임
     * 좋은 강의들의 인원 부족으로 인한 강의의 폐강을 줄임
     * 학생들의 성향 파악을 통한 추천으로 만족도를 높이고 수강 포기 확률 감소
@@ -50,16 +50,16 @@
         * 추천 시스템 부재
         * 실제 시간표가 수강신청 사이트에 등재 된 후 약 1주일 후 반영
     * [SNUTT, http://snutt.kr/](http://snutt.kr/) : 서울대학교 시간표 제작
-        * UI / UX 디자인 부재
+        * UI/UX 디자인 부재
         * 서울대 자대에만 사용되는 시스템
         * 추천 시스템 부재
     * [주관식 강의백서,https://goo.gl/PKoyQc](https://goo.gl/PKoyQc) : 인하대학교 주관식 강의백서
-        * 불편한 UI / UX
+        * 불편한 UI/UX
         * 어려운 검색, 강의에 대한 자료의 낮은 가독성
         * 모바일 최적화 부재
 - 기존 프로젝트와 제안 내용과의 차이 및 기존 문제 해결 방안
     * 추천 시스템
-    * 사용이 간편한 UI / UX
+    * 사용이 간편한 UI/UX
 - 기술적인 어려움
     * 추천 과목(item)이 적절하게 추천이 되었는지에 대한 수량적 사용자 만족도 판단의 어려움
     * 특정 OS 기반이 아닌 브라우저 기반으로 어려운 디바이스 최적화
@@ -145,19 +145,18 @@
     - 강의 추천의 정확도
     - 추천 시스템 연산의 속도를 어떻게 빠르게 할 것인지
     - 사용자의 웹 및 모바일 환경에서 접근 용이성
-    - 적절한 UI / UX 디자인이 쓰였는가
+    - 적절한 UI/UX가 쓰였는가
 
 #### 참고문헌
 * web part
-    * 이런 논문 1
-    * 이런 사이트 1
-    * 이런 논문 2
-    * 등등등
+    * React Virtual DOM Diff Algorithm(https://calendar.perfplanet.com/2013/diff/)
+    * nodejs(https://nodejs.org/ko/)
+    * babel(https://babeljs.io/docs/plugins/preset-react/)
+    * react(https://facebook.github.io/react/)
 * recommendation part
     * Stanford Jeffrey D. Ullman *mining massive datasets* 강의 수업자료(http://infolab.stanford.edu/~ullman/mmds/ch9.pdf)
     * 카이스트 제 8회 ROSAEC 워크샵자료 *Recommendation System* "협업 필터링을 중심으로"(http://rosaec.snu.ac.kr/meet/file/20120728b.pdf)
     * 미네소타 대학 Technical Report, "Application of Dimensionality Reduction in Recommender System -- A Case Study"
-    * 왓챠 추천시스템 대학교 발표 PPT(https://www.slideshare.net/itsociety/4-151106-58384179)
     * mahout을 이용한 recommendation system Overview(https://mahout.apache.org/users/recommender/recommender-documentation.html)
     * recommendation system 구축 엔진 선택에 관한 Quora text(https://www.quora.com/How-can-I-start-building-a-recommendation-engine)
     * mysql-python connector overview(https://dev.mysql.com/doc/connector-python/en/connector-python-connectargs.html)
