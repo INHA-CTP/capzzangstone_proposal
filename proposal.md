@@ -55,10 +55,10 @@
     * [에브리타임, http://everytime.kr/](http://everytime.kr/) : 시간표 제작 및 익명 커뮤니티
         * 추천 시스템 부재
         * 실제 시간표가 수강신청 사이트에 등재 된 후 약 1주일 후 반영<br/>
-        <img src = '/img/com3.png' height="350"/>
-        <img src = '/img/com4.png' height="350"/>
+        <img src = '/img/com3.png' height="300"/>
+        <img src = '/img/com4.png' height="300"/>
         * 컴퓨터 에서 본 화면입니다.<br/>
-        <img src = '/img/phone3.png' height="400"/>
+        <img src = '/img/phone3.png' height="350"/>
         * 모바일에서 본 화면입니다.<br/>
     * [SNUTT, http://snutt.kr/](http://snutt.kr/) : 서울대학교 시간표 제작
         * UI/UX 디자인 부재
@@ -105,8 +105,9 @@
     * 비기능적 요구사항 (non-functional requirements)
         * 해당 과목에 관심이 있는 인원 명시를 통한 경쟁 가능성 제시로 수강 인원 분산 유도
         * 추천 시스템 사용 유도
+        * 플로우차트(다음페이지 상세)
     <div>
-        <img src = '/img/flowchart.png' height="950"/>
+        <img src = '/img/flowchart.png' height="970"/>
         <span>*플로우차트입니다. 가로로 출력했습니다.*</span>
     </div>
 
@@ -162,8 +163,8 @@
         - 위 데이터는 입력 받아 사용할 알고리즘(cosine-similarity)를 파이썬과 몽고디비를 이용하여 구현해보는데 사용했습니다.
         - 결과<br/>
             <img src = '/img/res1.png'/>
-            * 위 과목을 들을 예정이던 학생과 비슷한 성향을 가진 학생을 찾아 유사도를 판단하고 그 유사도를 가진 학생들이 내가 선택하지 않은 어떤 과목을 선택했는지에 대해 컴토해 보았습니다.<br/>
-            <img src = '/img/res2.png' height='300'/>
+            * 위 과목을 들을 예정이던 학생과 비슷한 성향을 가진 학생을 찾아 유사도를 판단하고 그 유사도를 가진 학생들이 내가 선택하지 않은 어떤 과목을 선택했는지에 대해 검토해 보았습니다.
+            <img src = '/img/res2.png' height='220'/>
             * 유사도 측정 후 가중치를 둬 과목에 합을 구한 결과입니다. 이 결과를 변환해 보면
             <img src = '/img/res3.png' height='100'/>
             * 이러한 과목을 다른 학생들은 선택했던것을 알 수 있습니다.
@@ -171,6 +172,9 @@
         <img src = '/img/pro1.png' height='300'/>
         * 크롤링한 데이터의 시간 부분을 예로 들면 각 시간이 균일하게 나타나지 않는 것을 볼 수 있습니다.
         * 이것을 어떻게 균일하게 만들고 자동화 시킬지에대한 고민 또한 필요합니다.
+- DB구성 예정(다음페이지 상세)
+<img src = '/img/db.png' height='1000'/>
+    * 추후에 다른 DB 테이블이 추가/삭제/변경 될 수 있습니다.
 - 윤리, 정책 등 비기술적 고려사항
     - 평가가 이뤄지는 시기(6월)가 수강신청이 실제로 이뤄지지 않는 시기
     - 학생들의 지속적인 유입 방안 필요
@@ -187,9 +191,9 @@
         - 성과 측정 기간 : 2017.06.01 ~ 2017.06.15
     - 프로젝트 규모 : 두개의 서버(추천서버, 웹서버)와 8개(예정)의 뷰
 - 요소 작업들에 대한 roadmap 구성
-    * Gantt chart를 이용한 각 구성 작업 당 소요 기간
+    * Gantt chart를 이용한 각 구성 작업 당 소요 기간(다음페이지 상세)
     <div>
-      <img src = '/img/new_gantt.PNG' height='950' alt = 'gant_ex1'/>
+      <img src = '/img/new_gantt.PNG' height='970' alt = 'gant_ex1'/>
       <span>*간트차트 입니다.*</span>
     </div>
 - 평가기준
