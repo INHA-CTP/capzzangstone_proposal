@@ -70,9 +70,9 @@
     * UI/UX 디자인 부재
     * 서울대 자대에만 사용되는 시스템
     * 추천 시스템 부재<br/>
-    <img src = '/img/com5.png' height="400"/>
+    <img src = '/img/com5.png' height="350"/>
     * 컴퓨터에서 본 화면입니다.<br/>
-    <img src = '/img/phone4.png' height="400"/><br/>
+    <img src = '/img/phone4.png' height="350"/><br/>
     * 모바일에서 본 화면입니다.
 
 
@@ -81,7 +81,7 @@
     * 어려운 검색, 강의에 대한 자료의 낮은 가독성
     * 모바일 최적화 부재
     * 단순한 엑셀자료, 데이터 부족<br/>
-    <img src = '/img/com6.png' height="350"/><br/>
+    <img src = '/img/com6.png' height="440"/><br/>
 
 
 - 기존 프로젝트와 제안 내용과의 차이 및 기존 문제 해결 방안
@@ -219,7 +219,7 @@
 - 요소 작업들에 대한 roadmap 구성
     * Gantt chart를 이용한 각 구성 작업 당 소요 기간(다음페이지 상세)
     <div>
-      <img src = '/img/new_gantt.PNG' height='970' alt = 'gant_ex1'/>
+      <img src = '/img/new_gantt.PNG' height='980' alt = 'gant_ex1'/>
       <span>*간트차트 입니다.*</span>
     </div>
 - 평가기준
@@ -245,4 +245,3 @@
 * BeautifulSoup4 official document(https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 * Amazon Web Service official Document(https://aws.amazon.com/ko/documentation/)
 * 인사이드 자바스크립트(http://www.hanbit.co.kr/store/books/look.php?p_code=B6479856408)
-*
